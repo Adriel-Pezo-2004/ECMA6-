@@ -1,3 +1,5 @@
+// ----CLASE 1-----
+
 //Javascript
 function newFuction(name,age,country){
     var name = name || 'Adriel';
@@ -6,7 +8,7 @@ function newFuction(name,age,country){
     console.log(name,age,country);
 };
 
-//ES6+
+// es6+
 function newFuction2(name = 'Adriel',age = 17,country = 'PE'){
     console.log(name,age,country)
 };
@@ -14,10 +16,12 @@ function newFuction2(name = 'Adriel',age = 17,country = 'PE'){
 newFuction2();
 newFuction2('Adriel','18','PE');
 
-//
+// Javascript
 let hello = 'HELLO';
 let world = 'MONDE';
 let frase = hello + ' ' + world;
 console.log(frase);
+
+// es6+
 let frase2 = `${hello} ${world}`;
 console.log(frase2);
